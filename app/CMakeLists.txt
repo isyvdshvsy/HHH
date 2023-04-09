@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.16)
 project(Skyline LANGUAGES C CXX ASM VERSION 0.3)
 
+set(PRIVATE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/private)
+file(COPY ${PRIVATE_DIR}/your_file DESTINATION ${CMAKE_BINARY_DIR})
+
 set(BUILD_TESTS OFF CACHE BOOL "Build Tests" FORCE)
 set(BUILD_TESTING OFF CACHE BOOL "Build Testing" FORCE)
 set(BUILD_SHARED_LIBS OFF CACHE BOOL "Build Shared Libraries" FORCE)
