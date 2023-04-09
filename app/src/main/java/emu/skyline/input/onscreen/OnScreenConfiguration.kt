@@ -7,30 +7,35 @@ package emu.skyline.input.onscreen
 
 import android.content.Context
 import emu.skyline.input.ButtonId
+import emu.skyline.utils.SwitchColors
 import emu.skyline.utils.sharedPreferences
 
-interface ControllerConfiguration {
-    var enabled : Boolean
-    var globalScale : Float
-    var relativeX : Float
-    var relativeY : Float
-}
+class OnScreenConfiguration(private val context : Context, private val buttonId : ButtonId, defaultRelativeX : Float, defaultRelativeY : Float, defaultEnabled : Boolean) {
+    companion object {
+        const val DefaultAlpha = 130
+        const val DefaultGlobalScale = 1.15f
+        const val DefaultScale = 0.0f
+    }
 
-/**
- * Dummy implementation so layout editor is able to render [OnScreenControllerView] when [android.view.View.isInEditMode] is true
- */
-class ControllerConfigurationDummy(defaultRelativeX : Float, defaultRelativeY : Float) : ControllerConfiguration {
-    override var enabled = true
-    override var globalScale = 1f
-    override var relativeX = defaultRelativeX
-    override var relativeY = defaultRelativeY
-}
-
-class ControllerConfigurationImpl(private val context : Context, private val buttonId : ButtonId, defaultRelativeX : Float, defaultRelativeY : Float) : ControllerConfiguration {
     private inline fun <reified T> config(default : T, prefix : String = "${buttonId.name}_") = sharedPreferences(context, default, prefix, "controller_config")
 
-    override var enabled by config(true)
-    override var globalScale by config(1.15f, "")
-    override var relativeX by config(defaultRelativeX)
-    override var relativeY by config(defaultRelativeY)
+    var enabled by config(defaultEnabled)
+
+    var alpha by config(DefaultAlpha, "")
+    var textColor by config(SwitchColors.BLACK.color)
+    var backgroundColor by config(SwitchColors.WHITE.color)
+
+    /**
+     * The global scale applied to all buttons
+     */
+    var globalScale by config(DefaultGlobalScale, "")
+
+    /**
+     * The scale of each button, this is added to the global scale
+     * Allows buttons to have their own size, while still be controlled by the global scale
+     */
+    var scale by config(DefaultScale)
+
+    var relativeX by config(defaultRelativeX)
+    var relativeY by config(defaultRelativeY)
 }
