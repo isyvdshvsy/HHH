@@ -3,6 +3,7 @@
     <string name="search">Αναζήτηση</string>
     <string name="error">Βρέθηκε σφάλμα</string>
     <string name="copied_to_clipboard">Αντιγράφηκε στο πρόχειρο</string>
+    <string name="emulator">Εξομοιωτής</string>
     <!-- Toolbar Main -->
     <string name="settings">Ρυθμίσεις</string>
     <string name="share_logs">Κοινοποίηση καταγραφών</string>
@@ -21,42 +22,15 @@
     <string name="invalid_file">Μη έγκυρο αρχείο</string>
     <string name="missing_title_key">Λείπει το κλειδί τίτλου</string>
     <string name="incomplete_prod_keys">Ελειπής κλειδί προϊόντος</string>
-    <!-- Settings - Emulator -->
-    <string name="emulator">Εξομοιωτής</string>
-    <string name="search_location">Τοποθεσία αναζήτησης</string>
+    <!-- Picture-In-Picture -->
+    <string name="pause">Παύση </string>
+    <string name="mute">Σίγαση</string>
+    <!-- Settings - Content -->
+    <string name="content">Περιεχόμενο</string>
     <string name="open_data_directory">Προβολή εσωτερικού ευρετηρίου</string>
     <string name="open_data_directory_summary">Ανοίγει το εσωτερικό ευρετήριο της Skyline σε έναν διαχειριστή αρχείων</string>
-    <string name="failed_open_directory">Δεν βρέθηκε εξωτερικός διαχειριστής αρχείων για να ανοίξει το ευρετήριο της Skyline</string>
-    <string name="theme">Θέμα</string>
-    <string name="layout_type">Οθόνη διάταξης παιχνιδιών</string>
-    <string name="group_by_format">Ομαδοποίηση παιχνιδιών ανά μορφή</string>
-    <string name="group_by_format_desc_off">Τα παιχνίδια θα εμφανίζονται ως ενιαία λίστα</string>
-    <string name="group_by_format_desc_on">Τα παιχνίδια θα εμφανίζονται ομαδοποιημένα κατά μορφή</string>
-    <string name="sort_apps_by">Σειρά ταξινόμησης παιχνιδιών</string>
-    <string name="select_action">Πάντα εμφάνισε τις πληροφορίες παιχνιδιού</string>
-    <string name="select_action_desc_on">Οι πληροφορίες του παιχνιδιού θα εμφανιστούν όταν πατηθεί το παιχνίδι</string>
-    <string name="select_action_desc_off">Οι πληροφορίες του παιχνιδιού θα εμφανιστούν μόνο όταν πατηθεί παρατεταμένα το παιχνίδι</string>
-    <string name="perf_stats">Εμφάνιση στατιστικών απόδοσης</string>
-    <string name="shader_cache">Απενεργοποίηση κρυφής μνήμης shader</string>
-    <string name="perf_stats_desc_off">Τα στατιστικά απόδοσης δεν θα εμφανίζονται</string>
-    <string name="perf_stats_desc_on">Τα στατιστικά απόδοσης θα εμφανίζονται στη πάνω-αριστερή γωνία</string>
-    <string name="shader_cache_disabled">Τα αποθηκευμένα shaders δεν θα φορτωθούν, θα προκαλέσουν τραυλισμό</string>
-    <string name="shader_cache_enabled">Τα αποθηκευμένα shaders θα φορτωθούν, μπορούν να μειώσουν σημαντικά τον τραυλισμό</string>
-    <string name="log_level">Επίπεδο καταγραφής</string>
-    <string name="gpu_driver_config">Διαμόρφωση οδηγού GPU</string>
-    <string name="gpu_driver_config_desc">Ενεργοποίηση οδηγού: %1$s</string>
-    <string name="gpu_driver_config_desc_unsupported">Η συσκευή σου δεν υποστηρίζει προσαρμοσμένους οδηγούς</string>
-    <string name="app_language">Γλώσσα εφαρμογής</string>
-    <string name="app_language_default">Χρησιμοποιήστε την προεπιλογή συστήματος</string>
-    <!-- Settings - System -->
-    <string name="system">Σύστημα</string>
-    <string name="use_docked">Χρησιμοποίησε λειτουργία σύνδεσης</string>
-    <string name="handheld_enabled">Το σύστημα θα μιμηθεί ότι είναι σε λειτουργία χειρός</string>
-    <string name="docked_enabled">Το σύστημα θα μιμηθεί ότι βρίσκεται σε λειτουργεία σύνδεσης</string>
-    <string name="username">Όνομα</string>
-    <string name="profile_picture">Εικόνα προφίλ</string>
-    <string name="system_language">Γλώσσα συστήματος</string>
-    <string name="system_region">Χώρα συστήματος</string>
+    <string name="open_data_directory_failed">Δεν βρέθηκε εξωτερικός διαχειριστής αρχείων για να ανοίξει το ευρετήριο της Skyline</string>
+    <string name="search_location">Τοποθεσία αναζήτησης</string>
     <!-- Settings - Keys -->
     <string name="keys">Κλειδιά</string>
     <string name="prod_keys">Κλειδιά προϊόντος</string>
@@ -66,22 +40,68 @@
     <string name="import_keys_invalid_keys">Τα κλειδιά που εισήγαγες δεν είναι έγκυρα</string>
     <string name="import_keys_delete_previous_failed">Αποτυχία διαγραφής εγκατεστημένων κλειδιών</string>
     <string name="import_keys_move_failed">Αποτυχία μετακίνησης κλειδιών στο εσωτερικό ευρετήριο</string>
+    <!-- Settings - Appearance -->
+    <string name="appearance">Εμφάνιση</string>
+    <string name="theme">Θέμα</string>
+    <string name="app_language">Γλώσσα εφαρμογής</string>
+    <string name="app_language_default">Χρησιμοποιήστε την προεπιλογή συστήματος</string>
+    <string name="layout_type">Οθόνη διάταξης παιχνιδιών</string>
+    <string name="sort_apps_by">Σειρά ταξινόμησης παιχνιδιών</string>
+    <string name="group_by_format">Ομαδοποίηση παιχνιδιών ανά μορφή</string>
+    <string name="group_by_format_desc_off">Τα παιχνίδια θα εμφανίζονται ως ενιαία λίστα</string>
+    <string name="group_by_format_desc_on">Τα παιχνίδια θα εμφανίζονται ομαδοποιημένα κατά μορφή</string>
+    <string name="select_action">Πάντα εμφάνισε τις πληροφορίες παιχνιδιού</string>
+    <string name="select_action_desc_on">Οι πληροφορίες του παιχνιδιού θα εμφανιστούν όταν πατηθεί το παιχνίδι</string>
+    <string name="select_action_desc_off">Οι πληροφορίες του παιχνιδιού θα εμφανιστούν μόνο όταν πατηθεί παρατεταμένα το παιχνίδι</string>
+    <!-- Settings - Game -->
+    <string name="game">Παιχνίδι</string>
+    <string name="use_custom_settings">Ενεργοποίηση Προσαρμοσμένων Ρυθμίσεων</string>
+    <string name="use_custom_settings_desc_on">Οι προσαρμοσμένες ρυθμίσεις είναι ενεργές για αυτό το παιχνίδι</string>
+    <string name="use_custom_settings_desc_off">Οι προσαρμοσμένες ρυθμίσεις είναι ανενεργές για αυτό το παιχνίδι</string>
+    <string name="reset_custom_settings">Επαναφορά Προσαρμοσμένων Ρυθμίσεων </string>
+    <string name="reset_custom_settings_desc">Επαναφορά προσαρμοσμένων ρυθμίσεων στις προεπιλεγμένες τιμές</string>
+    <string name="reset_settings_warning">Είστε σίγουροι ότι θέλετε να επαναφέρετε όλες τις ρυθμίσεις στις προεπιλεγμένες τιμές? <b>Οι τρέχουσες ρυθμίσεις θα χαθούν</b></string>
+    <string name="copy_global_settings">Αντιγραφή Κύριων Ρυθμίσεων </string>
+    <string name="copy_global_settings_desc">Αντιγραφή κύριων ρυθμίσεων σε αυτό το παιχνίδι</string>
+    <string name="copy_global_settings_warning">Είστε σίγουροι ότι θέλετε να αντιγράψετε τις κύριες ρυθμίσεις σε αυτό το παιχνίδι? <b>Οι τρέχουσες ρυθμίσεις θα χαθούν</b></string>
+    <!-- Settings - System -->
+    <string name="system">Σύστημα</string>
+    <string name="use_docked">Χρησιμοποίησε λειτουργία σύνδεσης</string>
+    <string name="handheld_enabled">Το σύστημα θα μιμηθεί ότι είναι σε λειτουργία χειρός</string>
+    <string name="docked_enabled">Το σύστημα θα μιμηθεί ότι βρίσκεται σε λειτουργεία σύνδεσης</string>
+    <string name="username">Όνομα</string>
+    <string name="profile_picture">Εικόνα Προφίλ </string>
+    <string name="system_language">Γλώσσα Συστήματος</string>
+    <string name="system_region">Χώρα Συστήματος</string>
     <!-- Settings - Display -->
     <string name="display">Οθόνη</string>
-    <string name="screen_orientation">Προσανατολισμός οθόνης</string>
-    <string name="force_triple_buffering">Αναγκαστική τριπλή προσωρινή αποθήκευση</string>
-    <string name="triple_buffering_enabled">Χρησιμοποιήσε τουλάχιστον τρία buffer swapchain (Υψηλότερα FPS αλλά μεγαλύτερη καθυστέρηση εισόδου)</string>
-    <string name="triple_buffering_disabled">Χρησιμοποιήστε τουλάχιστον δύο buffer swapchain (Χαμηλότερα FPS αλλά μικρότερη καθυστέρηση εισόδου) </string>
-    <string name="disable_frame_throttling">Απενεργοποίηση επιβράδυνσης καρέ</string>
-    <string name="disable_frame_throttling_enabled">Το παιχνίδι επιτρέπεται να υποβάλλει καρέ όσο το δυνατόν γρηγορότερα (Μόνο για συγκριτική αξιολόγηση)\n\n<b>Σημείωση:</b> Χρησιμοποιείται μια εναλλακτική μέθοδος για τη μέτρηση του FPS με αυτό το ενεργοποιημένο, οι αριθμοί δεν πρέπει να συγκρίνονται με αριθμούς FPS με στραγγαλισμό</string>
-    <string name="disable_frame_throttling_disabled">Επέτρεψε στο παιχνίδι να δίνει καρέ μόνο στα hz της οθόνης</string>
+    <string name="perf_stats">Εμφάνιση στατιστικών απόδοσης</string>
+    <string name="perf_stats_desc_off">Τα στατιστικά απόδοσης δεν θα εμφανίζονται</string>
+    <string name="perf_stats_desc_on">Τα στατιστικά απόδοσης θα εμφανίζονται στη πάνω-αριστερή γωνία</string>
     <string name="max_refresh_rate">Χρήση μέγιστων hz/fps</string>
     <string name="max_refresh_rate_enabled">Ορίζει τα καρέ της οθόνης όσο πιο ψηλά γίνεται (Τα πιο πολλά παιχνίδια θα σπάσουν) </string>
     <string name="max_refresh_rate_disabled">Ορίζει τα καρέ της οθόνης σε 60hz</string>
+    <string name="screen_orientation">Περιστροφή Οθόνης </string>
     <string name="aspect_ratio">Αναλογία απεικόνισης</string>
     <string name="respect_display_cutout">Σεβασμός κόψιμου οθόνης</string>
     <string name="respect_display_cutout_enabled">Να μην εμφανίζονται χαρακτηριστικά του UI στην αποκομμένη περιοχή</string>
     <string name="respect_display_cutout_disabled">Να εμφανίζονται χαρακτηριστικά του UI στην αποκομμένη περιοχή</string>
+    <!-- Settings - Audio -->
+    <string name="audio">Ήχος</string>
+    <string name="disable_audio_output">Απενεργοποιήστε την έξοδο ήχου</string>
+    <string name="disable_audio_output_enabled">Η έξοδος ήχου είναι απενεργοποιημένη</string>
+    <string name="disable_audio_output_disabled">Η έξοδος ήχου είναι ενεργοποιημένη</string>
+    <!-- Settings - GPU -->
+    <string name="gpu">GPU </string>
+    <string name="gpu_driver_config">Διαμόρφωση οδηγού GPU</string>
+    <string name="gpu_driver_config_desc">Ενεργός οδηγός: %1$s</string>
+    <string name="gpu_driver_config_desc_unsupported">Η συσκευή σου δεν υποστηρίζει προσαρμοσμένους οδηγούς</string>
+    <string name="force_triple_buffering">Αναγκαστική τριπλή προσωρινή αποθήκευση</string>
+    <string name="triple_buffering_enabled">Χρησιμοποιήσε τουλάχιστον τρία buffer swapchain (Υψηλότερα FPS αλλά μεγαλύτερη καθυστέρηση εισόδου)</string>
+    <string name="triple_buffering_disabled">Χρησιμοποιήστε τουλάχιστον δύο buffer swapchain (Χαμηλότερα FPS αλλά μικρότερη καθυστέρηση εισόδου) </string>
+    <string name="disable_frame_throttling">Απενεργοποίηση επιβράδυνσης καρέ</string>
+    <string name="disable_frame_throttling_enabled">Το παιχνίδι επιτρέπεται να υποβάλλει καρέ όσο το δυνατόν γρηγορότερα (Μόνο για συγκριτική αξιολόγηση)\n\n<b>Σημείωση:</b> Χρησιμοποιείται μια εναλλακτική μέθοδος για τη μέτρηση των FPS με αυτό το ενεργοποιημένο, οι αριθμοί δεν πρέπει να συγκρίνονται με επιβράδυνσμένους αριθμούς FPS </string>
+    <string name="disable_frame_throttling_disabled">Επέτρεψε στο παιχνίδι να δίνει καρέ μόνο στα hz της οθόνης</string>
     <string name="executor_slot_count_scale">Κλίμακα καταμέτρησης αυλακώσεων εκτελεστή</string>
     <string name="executor_slot_count_scale_desc">Κλίμακα ελέγχου του μέγιστου αριθμού ταυτόχρονων εκτελέσεων GPU (Το υψηλότερο μπορεί μερικές φορές να έχει καλύτερη απόδοση, αλλά θα χρησιμοποιεί περισσότερη μνήμη RAM)</string>
     <string name="executor_flush_threshold">Όριο έκπλυσης εκτελεστή</string>
@@ -91,22 +111,25 @@
     <string name="force_max_gpu_clocks">Επιβολή μέγιστων συχνοτήτων GPU</string>
     <string name="force_max_gpu_clocks_desc">Αναγκάζει τη GPU να λειτουργεί με τη μέγιστη δυνατή ταχύτητα συχνότητας (Μπορεί να προκαλέσει υπερβολική θέρμανση και κατανάλωση ρεύματος)</string>
     <string name="force_max_gpu_clocks_desc_unsupported">Η συσκευή σας δεν υποστηρίζει επιβολή μέγιστων συχνοτήτων GPU</string>
+    <string name="free_guest_texture_memory">Ελεύθερη μνήμη επισκέπτριας υφής</string>
+    <string name="free_guest_texture_memory_desc">Επιτρέπει στα δεδομένα της επισκέπτριας υφής να ελευθερωθούν από την μνήμη όταν δεν χρειάζονται (Μπορεί σπανίως να προκαλέσει κρασαρίσματα)</string>
+    <string name="shader_cache">Απενεργοποίηση κρυφής μνήμης Shader</string>
+    <string name="shader_cache_disabled">Τα αποθηκευμένα shaders δεν θα φορτωθούν, θα προκαλέσουν τραυλισμό</string>
+    <string name="shader_cache_enabled">Τα αποθηκευμένα shaders θα φορτωθούν, μπορούν να μειώσουν σημαντικά τον τραυλισμό</string>
     <!-- Settings - Hacks -->
     <string name="hacks">Χακς</string>
-    <string name="enable_fast_gpu_readback">Ενεργοποίηση γρήγορης ανάγνωσης GPU</string>
+    <string name="enable_fast_gpu_readback">Ενεργοποίηση Γρηγόρου πίσω διαβάσματος του GPU</string>
     <string name="enable_fast_gpu_readback_enabled">Η γρήγορη ανάγνωση GPU είναι ενεργοποιημένη (Θα σπάσει ορισμένα παιχνίδια, αλλά άλλα θα έχουν υψηλότερη απόδοση)</string>
     <string name="enable_fast_gpu_readback_disabled">Η γρήγορη ανάγνωση GPU είναι απενεργοποιημένη (Εξασφαλίζει την υψηλότερη ακρίβεια)</string>
-    <string name="disable_subgroup_shuffle">Απενεργοποιήστε τη τυχαία αναπαραγωγή υποομάδας GPU</string>
+    <string name="enable_fast_readback_writes">Ενεργοποίηση γρήγορη γραφής πίσω διαβάσματος</string>
+    <string name="enable_fast_readback_writes_enabled">Γρήγορη γραφή πίσω διαβάσματος είναι ενεργοποιημένο</string>
+    <string name="enable_fast_readback_writes_disabled">Γρήγορη γραφή πίσω διαβάσματος είναι απενεργοποιημένη</string>
+    <string name="disable_subgroup_shuffle">Απενεργοποίηση τυχαίας αναπαραγωγής υποομάδας GPU</string>
     <string name="disable_subgroup_shuffle_enabled">Οι λειτουργίες τυχαίας αναπαραγωγής υποομάδας Shader είναι απενεργοποιημένες, ενδέχεται να προκαλέσουν σοβαρά προβλήματα γραφικών</string>
     <string name="disable_subgroup_shuffle_disabled">Οι λειτουργίες τυχαίας αναπαραγωγής της υποομάδας Shader είναι ενεργοποιημένες, διασφαλίζοντας τη μέγιστη ακρίβεια</string>
-
-    <!-- Settings - Audio -->
-    <string name="audio">Ήχος</string>
-    <string name="disable_audio_output">Απενεργοποιήστε την έξοδο ήχου</string>
-    <string name="disable_audio_output_enabled">Η έξοδος ήχου είναι απενεργοποιημένη</string>
-    <string name="disable_audio_output_disabled">Η έξοδος ήχου είναι ενεργοποιημένη</string>
     <!-- Settings - Debug -->
     <string name="debug">Εντοπισμός σφαλμάτων</string>
+    <string name="log_level">Επίπεδο καταγραφής</string>
     <string name="validation_layer">Ενεργοποίηση επιπέδου επικύρωσης</string>
     <string name="validation_layer_enabled">Το επίπεδο επικύρωσης για Vulkan είναι ενεργοποιημένο,  αναμένονται σημαντικές επιβραδύνσεις</string>
     <string name="validation_layer_disabled">Το επίπεδο επικύρωσης για Vulkan είναι απενεργοποιημένο</string>
@@ -131,14 +154,16 @@
     <string name="osc_not_shown">Τα Στοιχεία ελέγχου επί της οθόνης δεν θα εμφανίζονται</string>
     <string name="osc_shown">Τα Στοιχεία ελέγχου επί της οθόνης θα εμφανίζονται</string>
     <string name="osc_feedback">Ενεργοποίηση απτικής ανάδρασης</string>
-    <string name="osc_feedback_description">Εξαιρούνται τα χειριστήρια και τα χειριστήρια υλικού</string>
+    <string name="osc_feedback_description">Εξαιρούνται οι μοχλοί και τα χειριστήρια υλικού</string>
     <string name="osc_edit">Επεξεργασία διάταξης στοιχείων ελέγχου επί της οθόνης</string>
+    <string name="osc_text_color">Χρώμα γραμματοσειράς </string>
+    <string name="osc_background_color">Χρώμα παρασκηνίου</string>
     <string name="setup_guide">Οδηγός εγκατάστασης</string>
     <string name="setup_guide_description">Διαδοχικά χαρτογράφησε κάθε μοχλό και κουμπί</string>
-    <string name="joystick">Χειριστήριο</string>
+    <string name="joystick">Μοχλός</string>
     <string name="confirm">Επιβεβαίωση</string>
     <string name="cancel">Ακύρωση</string>
-    <string name="osc_recenter_sticks">Επικέντρωση μπαστουνιών με το άγγιγμα</string>
+    <string name="osc_recenter_sticks">Επικέντρωση μοχλός με το άγγιγμα</string>
     <string name="controller">Χειριστής</string>
     <string name="config_controller">Ρυθμίσεις χειριστή</string>
     <string name="controller_type">Τύπος χειριστή</string>
@@ -153,7 +178,7 @@
     <string name="supported">Υποστηρίζεται</string>
     <string name="not_supported">Δεν υποστηρίζεται</string>
     <string name="press_any_button">Πάτα οποιοδήποτε κουμπί στον χειριστή</string>
-    <string name="confirm_button_again">Επιβεβαίωση την επιλογή πατώντας ένα κουμπί πάλι</string>
+    <string name="confirm_button_again">Επιβεβαίωσε την επιλογή πατώντας ξανά ένα κουμπί</string>
     <string name="builtin">Ενσωματωμένο</string>
     <string name="builtin_vibrator">Ενσωματωμένος δονητής</string>
     <string name="reset">Επαναφορά</string>
@@ -161,13 +186,13 @@
     <string name="use_button_axis">Χρησιμοποίησε οποιοδήποτε κουμπί ή τον άξονα, στον χειριστή</string>
     <string name="release_confirm">Ελευθέρωσε για επιβεβαίωση επιλογής</string>
     <string name="hold_confirm">Πάτα για επιβεβαίωση επιλογής</string>
-    <string name="sticks">Μπαστούνια</string>
-    <string name="stick_button">Κουμπί μπαστουνιού</string>
+    <string name="sticks">Μοχλοί</string>
+    <string name="stick_button">Κουμπί μοχλού</string>
     <string name="next">Επόμενο</string>
-    <string name="x_plus">Μπαστούνι X+ Άξονα (Δεξί)</string>
-    <string name="y_plus">Μπαστούνι Y+ Αξονα (πάνω) </string>
-    <string name="x_minus">Μπαστούνι X- Αξονα (αριστερό)</string>
-    <string name="y_minus">Μπαστούνι Y- Άξονα (κάτω)</string>
+    <string name="x_plus">Μοχλός X+ Άξονα (Δεξίς)</string>
+    <string name="y_plus">Μοχλός Y+ Αξονα (πάνω) </string>
+    <string name="x_minus">Μοχλός X- Αξονα (αριστερός)</string>
+    <string name="y_minus">Μοχλός Y- Άξονα (κάτω)</string>
     <string name="a_button">A</string>
     <string name="b_button">B</string>
     <string name="x_button">X</string>
@@ -179,7 +204,7 @@
     <string name="plus_button">Και</string>
     <string name="minus_button">Μείον</string>
     <string name="emu_menu_button">Μενού εξομοιωτή</string>
-    <string name="stick_preview">Προεπισκόπηση μπαστουνιού</string>
+    <string name="stick_preview">Προεπισκόπηση μοχλών</string>
     <string name="done">Ολοκληρώθηκε</string>
     <string name="use_non_stick">Χρησιμοποίησε οποιοδήποτε μη χειρογραφημένο κουμπί για ολοκλήρωση</string>
     <string name="button">Κουμπί</string>
@@ -188,8 +213,8 @@
     <string name="left">Αριστερά</string>
     <string name="right">Δεξιά</string>
     <string name="dpad">Δ-pad</string>
-    <string name="left_stick">Αριστερό μπαστούνι</string>
-    <string name="right_stick">Δεξί μπαστούνι</string>
+    <string name="left_stick">Αριστερός μοχλός</string>
+    <string name="right_stick">Δεξίς μοχλός</string>
     <string name="face_buttons">Κουμπιά όψης</string>
     <string name="shoulder_trigger">Ώμου &amp; κουμπιά σκανδάλης</string>
     <string name="shoulder_rail">Κουμπιά ώμου στη ράγα του JoyCon</string>
@@ -230,4 +255,5 @@
     <!--suppress AndroidLintUnusedResources -->
     <string name="expand_button_title" tools:override="true">Επέκταση</string>
     <string name="undo">Ξέκανε</string>
+    <string name="per_game_settings_active_message">Οι ρυθμίσεις ανά παιχνίδι είναι ενεργές</string>
 </resources>
